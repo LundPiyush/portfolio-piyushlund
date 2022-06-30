@@ -1,0 +1,79 @@
+@import url('http://fonts.cdnfonts.com/css/agustina');
+
+:root{
+    --primary-color:#4338ca;
+    --dark-grey:#64748b;
+}
+
+/**nav**/
+.nav-bar{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+}
+
+.brand-name{
+    float: left;
+    font-size: x-large;
+}
+
+.no-bullet{
+    list-style: none;    
+}
+
+.list-inline{
+    display:inline;
+}
+.nav-bar .link{
+    color: white;
+}
+
+.nav-bar .active{
+    font-weight: bold;
+}
+
+.nav-bar .nav-pills{
+    text-align: right;
+}
+
+.logo {
+    color: white;
+    display: block;
+    float: left;
+    font-size: 1em;
+    text-decoration: none;
+    margin-top: 10px;
+    line-height: normal;
+}
+
+.logo .logo-name{
+    font-family: 'Agustina', 'Regular';
+}
+/**container**/
+
+.container{
+    padding: 2rem;
+}
+
+/**header**/
+
+.home-img{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+.home-heading{
+    color: var(--dark-grey);
+    text-align: center;
+    padding: 1rem;
+}
+.heading-highlighted{
+    color: var(--primary-color);
+}
+
+/**links**/
+.link{
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
