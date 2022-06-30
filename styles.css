@@ -3,12 +3,14 @@
 :root{
     --primary-color:#4338ca;
     --dark-grey:#64748b;
+    --light-blue:#a6e1fa;
+    --light-grey:#f1f5f9;
 }
 
 /**nav**/
 .nav-bar{
     background-color: var(--primary-color);
-    padding: 1rem;
+    padding: 2rem;
     color: white;
 }
 
@@ -33,7 +35,7 @@
 }
 
 .nav-bar .nav-pills{
-    text-align: right;
+    text-align: right;   
 }
 
 .logo {
@@ -49,10 +51,13 @@
 .logo .logo-name{
     font-family: 'Agustina', 'Regular';
 }
+.nav-bar .link{
+    font-size: large;
+}
 /**container**/
 
 .container{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 /**header**/
@@ -76,4 +81,15 @@
     color: var(--primary-color);
     text-decoration: none;
     padding: 0.5rem 1rem;
+}
+
+.border-container{
+    margin: auto;
+    padding:1rem ;
+    background-color: var(--light-grey);
+    max-width: 700px;
+}
+
+.border-container-plain{
+
 }
