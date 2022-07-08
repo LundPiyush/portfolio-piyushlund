@@ -8,6 +8,11 @@
     --white : #FFFFFF;
 }
 
+body{
+    margin:0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 /**nav**/
 .nav-bar{
     background-color: var(--primary-color);
@@ -108,7 +113,7 @@
 .border-container-purple .link{
     color:var(--white);
     display: block;
-    max-width: 90px;
+    max-width: 100px;
     border:1px solid var(--white) ;
     border-radius:10px ;
 }
@@ -119,5 +124,28 @@
     border-radius: 10px;
     background-color: var(--dark-grey);
     border: 1px solid var(--white);  
+    color:var(--white);
+}
+
+/**footer**/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color:var(--white);
+    text-align: center; 
+    border-radius: 10px;
+}
+
+.bold{
+    font-weight: bold;
+    
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+footer .link{
     color:var(--white);
 }
