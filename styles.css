@@ -176,4 +176,9 @@ footer .link{
 
 .project-id{
     margin-left: 0.5rem;
+    background-color: var(--primary-color);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.5rem;
+    color: var(--white);
+    font-size: small;
 }
