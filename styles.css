@@ -149,3 +149,31 @@ body{
 footer .link{
     color:var(--white);
 }
+
+/**projects**/
+
+.projects-heading{
+    color: var(--dark-grey);
+    text-align: center;
+    padding: 1rem;
+}
+
+.link-projects{
+    max-width: 95px;
+    border-radius: 10px;
+    background-color: var(--dark-grey);
+    border: 1px solid var(--white);  
+    color:var(--white);
+}
+
+.projects-description{
+    margin-bottom: 2rem;
+}
+
+.projects ul{
+    padding-inline-start: 0px;
+}
+
+.project-id{
+    margin-left: 0.5rem;
+}
